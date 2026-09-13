@@ -1,0 +1,17 @@
+__pycache__/
+*.pyc
+*.pyo
+*.pkl
+*.db
+*.sqlite3
+.env
+.venv/
+venv/
+env/
+data/models/
+data/baseline.csv
+.DS_Store
+*.egg-info/
+dist/
+build/
+.streamlit/secrets.toml
