@@ -1,6 +1,8 @@
 # ⚡ DataPulse AI
 
-> End-to-End Analytics, MLOps Monitoring & Ollama Executive Narration Dashboard
+> End-to-End MLOps Monitoring Dashboard with Real-Time Analytics & AI Executive Narration
+
+A full-stack platform that simulates live infrastructure telemetry, runs it through a 3-model ML pipeline, detects anomalies and model drift, and generates executive-level insights via Ollama (Mistral) — all visualized in a real-time Streamlit dashboard.
 
 ## Screenshots
 
@@ -14,14 +16,18 @@
 ![Forecasting and Health](screenshots/forecasting_health.png)
 
 ## Tech Stack
-| Layer | Tools |
-|---|---|
-| Backend API | FastAPI, SQLAlchemy, SQLite |
-| Frontend | Streamlit, Plotly |
-| ML Models | XGBoost, Isolation Forest, Logistic Regression |
+
+| Layer | Technology |
+|-------|-----------|
+| Backend API | FastAPI + SQLAlchemy + SQLite |
+| Frontend | Streamlit + Plotly |
+| Anomaly Detection | Isolation Forest |
+| KPI Forecasting | XGBoost |
+| Health Classification | Logistic Regression |
 | Background Engine | APScheduler |
-| AI Narration | Ollama (Mistral) with rule-based fallback |
+| AI Narration | Ollama (Mistral) + rule-based fallback |
 | Auth | JWT Bearer Tokens |
+
 
 ## Quick Start
 ```bash
